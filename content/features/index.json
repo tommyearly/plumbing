@@ -1,0 +1,22 @@
+{
+  "heading": "Our Features",
+  "subheading": "What We Offer again 99",
+  "description": "Discover the key features that make our platform stand out",
+  "cards": [
+    {
+      "imageSrc": "/images/feature1.svg",
+      "title": "Easy Integration 55",
+      "description": "Seamlessly integrate our platform with your existing workflow and tools."
+    },
+    {
+      "imageSrc": "/images/feature2.svg",
+      "title": "Real-time Updates",
+      "description": "Stay up to date with real-time notifications and live updates."
+    },
+    {
+      "imageSrc": "/images/feature3.svg",
+      "title": "Advanced Analytics",
+      "description": "Gain valuable insights with our comprehensive analytics dashboard."
+    }
+  ]
+}

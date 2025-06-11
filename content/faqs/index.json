@@ -1,0 +1,31 @@
+{
+  "heading": "Frequently Asked Questions",
+  "subheading": "Common Questions",
+  "description": "Find answers to the most common questions about our drain cleaning services.",
+  "faqs": [
+    {
+      "question": "What areas do you service?",
+      "answer": "We provide drain cleaning services throughout Dublin and surrounding areas. 4"
+    },
+    {
+      "question": "How quickly can you respond to emergencies?",
+      "answer": "We offer 24/7 emergency services and typically respond within 30-60 minutes for urgent situations. Our team is always ready to help with your plumbing emergencies."
+    },
+    {
+      "question": "What methods do you use for drain cleaning?",
+      "answer": "We use a variety of modern techniques including high-pressure water jetting, drain snakes, and CCTV inspection to ensure thorough cleaning and proper diagnosis of any issues."
+    },
+    {
+      "question": "Do you offer any guarantees on your work?",
+      "answer": "Yes, we stand behind our work with a 100% satisfaction guarantee. If you're not completely satisfied with our service, we'll come back and make it right at no additional cost."
+    },
+    {
+      "question": "How much does drain cleaning cost?",
+      "answer": "Our pricing is competitive and transparent. The cost depends on the specific service needed, the severity of the issue, and the location. We provide free quotes and won't start any work until you approve the price."
+    },
+    {
+      "question": "Do I need to be home for the service?",
+      "answer": "While it's helpful to have someone present, it's not always necessary. We can arrange access to your property if you're unable to be there, and we'll ensure everything is secure when we leave."
+    }
+  ]
+}
