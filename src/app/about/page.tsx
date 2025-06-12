@@ -2,17 +2,18 @@ import React from 'react';
 import { client } from "../../../tina/__generated__/client";
 
 export default async function About() {
-  const query = `#graphql
-    query {
-      about(relativePath: "index.json") {
-        title
-        description
-        image
-      }
-    }
-  `;
-  const variables = {};
-  const { data } = await client.request({ query, variables });
+  // const query = `#graphql
+  //   query {
+  //     about(relativePath: "index.json") {
+  //       title
+  //       description
+  //       image
+  //     }
+  //   }
+  // `;
+  // const variables = {};
+  // const { data } = await client.request<{ about: { title: string; description: string; image: string } }>({ query, variables });
+  const { data } = await client.queries.about({ relativePath: "index.json" });
 
   return (
     <div className="relative">
@@ -27,7 +28,7 @@ export default async function About() {
         </div>
         <div className="mt-12 flex justify-center">
           <img
-            src={data.about.image}
+            src={data.about.image || ""}
             alt="About our plumbing services"
             className="max-w-2xl rounded-lg shadow-xl"
           />
