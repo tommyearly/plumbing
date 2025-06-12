@@ -2,17 +2,17 @@ import React from 'react';
 import { client } from "../../../tina/__generated__/client";
 
 export default async function About() {
-  const { data } = await client.request({
-    query: `#graphql
-      query {
-        about(relativePath: "index.json") {
-          title
-          description
-          image
-        }
+  const query = `#graphql
+    query {
+      about(relativePath: "index.json") {
+        title
+        description
+        image
       }
-    `,
-  });
+    }
+  `;
+  const variables = {};
+  const { data } = await client.request({ query, variables });
 
   return (
     <div className="relative">
